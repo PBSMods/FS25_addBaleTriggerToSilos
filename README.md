@@ -1,20 +1,20 @@
-# FS25_modName
+# FS25_AddBaleTriggerSpecialization
 
 # ModHub
 ## Status
 Not yet submitted  
-Submitted | pending  
-Submitted | testing  
-Returned | review  
-Confirmed | publish in next ModHub update  
-Published | Link:   
+~Submitted | pending~  
+~Submitted | testing~  
+~Returned | review~  
+~Confirmed | publish in next ModHub update~  
+~Published | Link:~  
 
 Noch nicht eingereicht  
-Eingereicht | ausstehend  
-Eingereicht | Prüfung läuft  
-Zurückgesandt | Überprüfung  
-Bestätigt | Veröffentlichung im nächsten ModHub-Update  
-Veröffentlicht | Link:   
+~Eingereicht | ausstehend~  
+~Eingereicht | Prüfung läuft~  
+~Zurückgesandt | Überprüfung~  
+~Bestätigt | Veröffentlichung im nächsten ModHub-Update~  
+~Veröffentlicht | Link:~  
 
 # General
 ## DE
