@@ -1,3 +1,41 @@
+--
+-- Mod: FS25_addBaleTriggerToSilos
+--
+-- Author: PBSMods
+-- email: pbsmods (at) pbsmods (dot) ch
+-- @Date: 02.03.2026
+-- @Version: 1.0.0.0
+
+-- #############################################################################
+
+--[[
+# Was dieses Script macht
+
+| Schritt | Erklärung                                       |
+| ------- | ----------------------------------------------- |
+| 1       | Beim Map-Load werden alle Placeables geprüft    |
+| 2       | Wenn Storage + LoadingStation vorhanden         |
+| 3       | Falls kein BaleTrigger existiert                |
+| 4       | Wird automatisch ein Import-BaleTrigger erzeugt |
+| 5       | Ballen werden in FillLevel umgerechnet          |
+| 6       | Ballen werden gelöscht                          |
+| 7       | Silo gibt normal als Schüttgut aus              |
+
+
+# What this script does
+
+| Step    | Explanation                                       |
+| ------- | ------------------------------------------------- |
+| 1       | All placeables are checked when the map is loaded |
+| 2       | If storage + loading station is available         |
+| 3       | If no BaleTrigger exists                          |
+| 4       | An import BaleTrigger is automatically created    |
+| 5       | Bales are converted to FillLevel                  |
+| 6       | Bales are deleted                                 |
+| 7       | Silo outputs normally as bulk material            |
+
+]]--
+
 addBaleTriggerToSilos = {}
 addBaleTriggerToSilos.modName = g_currentModName
 
@@ -46,3 +84,4 @@ function addBaleTriggerToSilos:deleteMap()
 end
 
 addModEventListener(addBaleTriggerToSilos)
+
