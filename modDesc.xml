@@ -6,35 +6,31 @@
     <version>0.0.0.1</version>
 
     <title>
-        <de>Name Des Mods</de>
-        <en>Name Of The Mod</en>
+        <de>Füge BallenTrigger Zu Silos Hinzu</de>
+        <en>Add BaleTrigger To Silos</en>
     </title>
 
     <description>
         <de>
-<![CDATA[Description
-
-Details]]>
-        </en>
-        <de>
-<![CDATA[Beschreibung
-
-Details]]>
+<![CDATA[Fügt allen Silos ohne BaleTrigger einen Import-BaleTrigger hinzu.]]>
         </de>
+        <en>
+<![CDATA[Adds an import BaleTrigger to all silos without one.]]>
+        </en>
     </description>
 
-    <iconFilename>icon_modName.png</iconFilename>
+    <iconFilename>icon_addBaleTriggerToSilos.png</iconFilename>
 
     <multiplayer supported="true" />
 
-    <l10n filenamePrefix="l10n/l10n"/>
+    <l10n filenamePrefix="l10n/l10n" />
 
     <storeItems>
         <storeItem xmlFilename="xml/name.xml"/>
     </storeItems>
 
     <extraSourceFiles>
-        <sourceFile filename="scripts/modName.lua"/>
+        <sourceFile filename="scripts/addBaleTriggerToSilos.lua"/>
     </extraSourceFiles>
     <!-- REQUIRED CONTENT END -->
 
