@@ -1,6 +1,8 @@
 --
 -- Mod: FS25_addBaleTriggerToSilos
 --
+-- File: scripts/addBaleTriggerToSilos.lua
+--
 -- Author: PBSMods
 -- email: pbsmods (at) pbsmods (dot) ch
 -- @Date: 02.03.2026
@@ -84,4 +86,5 @@ function addBaleTriggerToSilos:deleteMap()
 end
 
 addModEventListener(addBaleTriggerToSilos)
+
 
