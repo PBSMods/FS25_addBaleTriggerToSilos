@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <texts>
+        <text name="shopItem_modName"           text="Modname" />
+        <!-- COLORS -->
+        <text name="brassScratched"             text="Messing zerkratzt" />
+        <text name="bronzeScratched"            text="Bronze zerkratzt" />
+        <text name="copperScratched"            text="Kupfer zerkratzt" />
+        <text name="glassClear03"               text="Chrome hochglanz" />
+        <text name="goldScratched"              text="Gold zerkratzt" />
+        <text name="metalPaintedGraphite"       text="Graphit hell" />
+        <text name="metalPaintedGraphiteBlack"  text="Graphit schwarz" />
+        <text name="metalPaintedRoughBlack"     text="Schwarz rau" />
+        <text name="metalPaintedRoughGray"      text="Grau rau" />
+        <text name="palladiumScratched"         text="Palladium zerkratzt" />
+        <text name="reflectorOrangeHexagon"     text="Orange hexareflektion" />
+        <text name="reflectorRedHexagon"        text="Rot hexareflektion" />
+        <text name="reflectorWhiteHexagon"      text="Weiss hexareflektion" />
+        <text name="reflectorYellowHexagon"     text="Gelb hexareflektion" />
+        <text name="rubberBlackHoses"           text="Gummi tiefschwarz" />
+        <text name="silverBumpy"                text="Silber rau" />
+        <text name="silverCircularBrushed"      text="Silber gebürstet" />
+        <text name="silverScratched"            text="Silber zerkratzt" />
+        <text name="silverScratchedShiny"       text="Silber zerkratzt glänzend" />
+        <text name="snow"                       text="Schnee" />
+        <text name="wood1"                      text="Holz hell" />
+        <text name="wood2"                      text="Holz dunkel" />
+    </texts>
+</l10n>

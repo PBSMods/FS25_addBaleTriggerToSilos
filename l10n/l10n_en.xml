@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+        <text name="shopItem_modName"           text="Modname" />
+        <!-- COLORS -->
+        <text name="brassScratched"             text="Brass scratched" />
+        <text name="bronzeScratched"            text="Bronze scratched" />
+        <text name="copperScratched"            text="Copper scratched" />
+        <text name="glassClear03"               text="Chrome highgloss" />
+        <text name="goldScratched"              text="Gold scratched" />
+        <text name="metalPaintedGraphite"       text="Graphite light" />
+        <text name="metalPaintedGraphiteBlack"  text="Graphite black" />
+        <text name="metalPaintedRoughBlack"     text="Black rough" />
+        <text name="metalPaintedRoughGray"      text="Grey rough" />
+        <text name="palladiumScratched"         text="Palladium scratched" />
+        <text name="reflectorOrangeHexagon"     text="Orange hexareflection" />
+        <text name="reflectorRedHexagon"        text="Rot hexareflection" />
+        <text name="reflectorWhiteHexagon"      text="Weiss hexareflection" />
+        <text name="reflectorYellowHexagon"     text="Gelb hexareflection" />
+        <text name="rubberBlackHoses"           text="Rubber deepblack" />
+        <text name="silverBumpy"                text="Silver rough" />
+        <text name="silverCircularBrushed"      text="Silver brushed" />
+        <text name="silverScratched"            text="Silver scratched" />
+        <text name="silverScratchedShiny"       text="Silver scratched shiny" />
+        <text name="snow"                       text="Snow" />
+        <text name="wood1"                      text="Wood light" />
+        <text name="wood2"                      text="Wood dark" />
+	    <!-- COLORS -->
+	</texts>
+</l10n>

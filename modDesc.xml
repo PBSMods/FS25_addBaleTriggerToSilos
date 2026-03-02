@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="105" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <!-- REQUIRED CONTENT BEGIN --> 
+    <author>PBSMods</author>
+
+    <version>0.0.0.1</version>
+
+    <title>
+        <de>Name Des Mods</de>
+        <en>Name Of The Mod</en>
+    </title>
+
+    <description>
+        <de>
+<![CDATA[Description
+
+Details]]>
+        </en>
+        <de>
+<![CDATA[Beschreibung
+
+Details]]>
+        </de>
+    </description>
+
+    <iconFilename>icon_modName.png</iconFilename>
+
+    <multiplayer supported="true" />
+
+    <l10n filenamePrefix="l10n/l10n"/>
+
+    <storeItems>
+        <storeItem xmlFilename="xml/name.xml"/>
+    </storeItems>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/modName.lua"/>
+    </extraSourceFiles>
+    <!-- REQUIRED CONTENT END -->
+
+    <!-- OPTIONAL CONTENT BEGIN -->
+    <!-- <dependencies>
+        <dependency>FS25_precisionFarming</dependency>
+    </dependencies> -->
+
+    <!-- <vehicleTypes>
+        <type name="fertilizingSowingMachineRoller" parent="fertilizingSowingMachine"       className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">            
+            <specialization name="roller"               />			
+        </type>
+        <type name="FLC2"                           parent="pickupConveyorBelt"             className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="crabSteering"         />
+            <specialization name="dynamicMountAttacher" />
+        </type>
+        <type name="FlieglASS298"                   parent="trailer"                        className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="act"                  />
+        </type>
+        <type name="GoldhoferBack"                  parent="dynamicMountAttacherTrailer"    className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="workArea"             />
+            <specialization name="workMode"             />
+            <specialization name="groundReference"      />
+        </type>
+        <type name="GoldhoferFront"                 parent="semiTrailerFront"               className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="workArea"             />
+            <specialization name="workMode"             />
+            <specialization name="groundReference"      />
+        </type>
+        <type name="KogelAutoLoader"                parent="baseAttachable"                 className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="cover"                />
+            <specialization name="tensionBelts"         />
+        </type>
+    </vehicleTypes> -->
+
+	<!-- <fillTypes filename="scripts/fillTypes.xml"     /> -->
+
+    <!-- <vehicleSchemaOverlays filename="textures/FLCSchemaOverlays.png" imageSize="512 256">
+        <overlay name="GATOR_DEFAULT"         uvs="0px 0px 256px 128px"     size="64px 32px" />
+        <overlay name="GATOR_SELECTED"        uvs="256px 0px 256px 128px"   size="64px 32px" />
+        <overlay name="GATOR_ON"              uvs="512px 0px 256px 128px"   size="64px 32px" />
+        <overlay name="GATOR_SELECTED_ON"     uvs="1024px 0px 256px 128px"  size="64px 32px" />
+    </vehicleSchemaOverlays> -->
+
+    <!-- <jointTypes>
+        <jointType name="Forklifts" />
+    </jointTypes> -->
+
+    <!-- <axisIcons>
+        <icon name="moveAxis_ICON"      filename="textures/moveAxis.dds"        />
+        <icon name="moveAxisFront_ICON" filename="textures/moveAxisFront.dds"   />
+    </axisIcons> -->
+
+    <!-- <actions>
+        <action name="function_anim1" category="VEHICLE" axisType="HALF" />
+    </actions> -->
+
+    <!-- <inputBinding>
+        <actionBinding action="function_anim1">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_x" axisComponent="+" neutralInput="0" index="1"/>
+        </actionBinding>
+    </inputBinding> -->
+
+    <!-- <specializations>
+        <specialization name="act" className="act" filename="scripts/modName.lua"   />
+    </specializations> -->
+
+    <!-- <materialTemplates>
+        <template name="CHASSISCOLOR"       title="$l10n_CHASSISCOLOR"          colorScale="0.012 0.012 0.012"      parentTemplate="metalPaintedBlack"          />
+        <template name="SPECIALBLUE1"       title="$l10n_SPECIALBLUE1"          colorScale="0 0.09 0.09"            parentTemplate="calibratedPaint"            />
+        <template name="SPECIALBLUE2"       title="$l10n_SPECIALBLUE2"          colorScale="0 0 1"                  parentTemplate="calibratedPaint"            />
+        <template name="SPECIALYELLOW"      title="$l10n_SPECIALYELLOW"         colorScale="1.0000 0.7231 0.0000"   parentTemplate="calibratedPaint"            />
+        <template name="SPECIALGREEN"       title="$l10n_SPECIALGREEN"          colorScale="0.488 0.687 0.027"      parentTemplate="calibratedPaint"            />
+        <template name="MANRED"             title="$l10n_MANRED"                colorScale="0.5605 0.0037 0.0037"   parentTemplate="calibratedPaint"            />
+        <template name="MANOLDGREEN"        title="$l10n_MANOLDGREEN"           colorScale="0.1878 0.3006 0.2159"   parentTemplate="calibratedPaint"            />
+        <template name="MANBEIGE"           title="$l10n_MANBEIGE"              colorScale="0.3021 0.2549 0.1734"   parentTemplate="calibratedPaint"            />
+        <template name="BLACK"              title="$l10n_BLACK"                 colorScale="0 0 0"                  parentTemplate="calibratedPaint"            />
+        <template name="TATRAGREEN"         title="$l10n_TATRAGREEN"            colorScale="0.0200 0.2800 0.1900"   parentTemplate="calibratedPaint"            />
+        <template name="BROWN2"             title="$l10n_BROWN2"                colorScale="0.0886 0.0203 0.0012"   parentTemplate="calibratedPaint"            />
+        <template name="BLUE1"              title="$l10n_BLUE1"                 colorScale="0.0000 0.4047 0.7519"   parentTemplate="calibratedPaint"            />
+        <template name="BLUE2"              title="$l10n_BLUE2"                 colorScale="0.0055 0.0170 0.0265"   parentTemplate="calibratedPaint"            />
+        <template name="BLUE3"              title="$l10n_BLUE3"                 colorScale="0.0019 0.0059 0.0090"   parentTemplate="calibratedPaint"            />
+        <template name="GREEN1"             title="$l10n_GREEN1"                colorScale="0.1070 0.2086 0.2462"   parentTemplate="calibratedPaint"            />
+        <template name="GREEN2"             title="$l10n_GREEN2"                colorScale="0.0265 0.6592 0.3204"   parentTemplate="calibratedPaint"            />
+        <template name="GREEN3"             title="$l10n_GREEN3"                colorScale="0.0072 0.2758 0.0528"   parentTemplate="calibratedPaint"            />
+        <template name="GREEN4"             title="$l10n_GREEN4"                colorScale="0.0000 1.0000 0.0415"   parentTemplate="calibratedPaint"            />
+        <template name="PINK"               title="$l10n_PINK"                  colorScale="0.5924 0.1871 0.3723"   parentTemplate="calibratedPaint"            />
+        <template name="PINKRED"            title="$l10n_PINKRED"               colorScale="0.8751 0.0017 0.0303"   parentTemplate="calibratedPaint"            />
+        <template name="BERRY"              title="$l10n_BERRY"                 colorScale="0.1087 0.0210 0.0370"   parentTemplate="calibratedPaint"            />
+        <template name="WHITE"              title="$l10n_WHITE"                 colorScale="1.0000 1.0000 1.0000"   parentTemplate="calibratedPaint"            />
+        <template name="ORANGE"             title="$l10n_ORANGE"                colorScale="0.9157 0.1220 0.0066"   parentTemplate="calibratedPaint"            />
+        <template name="DARKGRAY"           title="$l10n_DARKGRAY"              colorScale="0.1220 0.1199 0.1199"   parentTemplate="calibratedPaint"            />
+        <template name="YELLOW1"            title="$l10n_YELLOW1"               colorScale="0.8913 0.6456 0.2120"   parentTemplate="calibratedPaint"            />
+        <template name="YELLOW2"            title="$l10n_YELLOW2"               colorScale="0.5054 0.3066 0.0231"   parentTemplate="calibratedPaint"            />
+        <template name="YELLOW3"            title="$l10n_YELLOW3"               colorScale="0.8227 0.9131 0.0000"   parentTemplate="calibratedPaint"            />
+        <template name="VIOLET1"            title="$l10n_VIOLET1"               colorScale="0.0802 0.0513 0.7231"   parentTemplate="calibratedPaint"            />
+        <template name="VIOLET2"            title="$l10n_VIOLET2"               colorScale="0.0090 0.0014 0.0619"   parentTemplate="calibratedPaint"            />
+        <template name="NAVY"               title="$l10n_NAVY"                  colorScale="0.0529 0.0865 0.0242"   parentTemplate="calibratedPaint"            />
+        <template name="DEFAULTRED"         title="$l10n_ui_colorRed"           colorScale="1.0000 0.0000 0.0000"   parentTemplate="calibratedPaint"            />
+        <template name="DEFAULTGREY"        title="$l10n_ui_colorGrey"          colorScale="0.4000 0.4000 0.4000"   parentTemplate="calibratedPaint"            />
+        <template name="SPECIALBLUE1METAL"  title="$l10n_SPECIALBLUE1METAL"     colorScale="0 0.09 0.09"            parentTemplate="calibratedMetallicPaint"    />
+        <template name="SPECIALBLUE2METAL"  title="$l10n_SPECIALBLUE2METAL"     colorScale="0 0 1"                  parentTemplate="calibratedMetallicPaint"    />
+        <template name="SPECIALYELLOWMETAL" title="$l10n_SPECIALYELLOWMETAL"    colorScale="1.0000 0.7231 0.0000"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="SPECIALGREENMETAL"  title="$l10n_SPECIALGREENMETAL"     colorScale="0.488 0.687 0.027"      parentTemplate="calibratedMetallicPaint"    />
+        <template name="MANREDMETAL"        title="$l10n_MANREDMETAL"           colorScale="0.5605 0.0037 0.0037"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="MANOLDGREENMETAL"   title="$l10n_MANOLDGREENMETAL"      colorScale="0.1878 0.3006 0.2159"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="MANBEIGEMETAL"      title="$l10n_MANBEIGEMETAL"         colorScale="0.3021 0.2549 0.1734"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="BLACKMETAL"         title="$l10n_BLACKMETAL"            colorScale="0 0 0"                  parentTemplate="calibratedMetallicPaint"    />
+        <template name="TATRAGREENMETAL"    title="$l10n_TATRAGREENMETAL"       colorScale="0.0200 0.2800 0.1900"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="BROWN2METAL"        title="$l10n_BROWN2METAL"           colorScale="0.0886 0.0203 0.0012"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="BLUE1METAL"         title="$l10n_BLUE1METAL"            colorScale="0.0000 0.4047 0.7519"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="BLUE2METAL"         title="$l10n_BLUE2METAL"            colorScale="0.0055 0.0170 0.0265"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="BLUE3METAL"         title="$l10n_BLUE3METAL"            colorScale="0.0019 0.0059 0.0090"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="GREEN1METAL"        title="$l10n_GREEN1METAL"           colorScale="0.1070 0.2086 0.2462"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="GREEN2METAL"        title="$l10n_GREEN2METAL"           colorScale="0.0265 0.6592 0.3204"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="GREEN3METAL"        title="$l10n_GREEN3METAL"           colorScale="0.0072 0.2758 0.0528"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="GREEN4METAL"        title="$l10n_GREEN4METAL"           colorScale="0.0000 1.0000 0.0415"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="PINKMETAL"          title="$l10n_PINKMETAL"             colorScale="0.5924 0.1871 0.3723"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="PINKREDMETAL"       title="$l10n_PINKREDMETAL"          colorScale="0.8751 0.0017 0.0303"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="BERRYMETAL"         title="$l10n_BERRYMETAL"            colorScale="0.1087 0.0210 0.0370"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="WHITEMETAL"         title="$l10n_WHITEMETAL"            colorScale="1.0000 1.0000 1.0000"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="ORANGEMETAL"        title="$l10n_ORANGEMETAL"           colorScale="0.9157 0.1220 0.0066"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="DARKGRAYMETAL"      title="$l10n_DARKGRAYMETAL"         colorScale="0.1220 0.1199 0.1199"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="YELLOW1METAL"       title="$l10n_YELLOW1METAL"          colorScale="0.8913 0.6456 0.2120"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="YELLOW2METAL"       title="$l10n_YELLOW2METAL"          colorScale="0.5054 0.3066 0.0231"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="YELLOW3METAL"       title="$l10n_YELLOW3METAL"          colorScale="0.8227 0.9131 0.0000"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="VIOLET1METAL"       title="$l10n_VIOLET1METAL"          colorScale="0.0802 0.0513 0.7231"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="VIOLET2METAL"       title="$l10n_VIOLET2METAL"          colorScale="0.0090 0.0014 0.0619"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="NAVYMETAL"          title="$l10n_NAVYMETAL"             colorScale="0.0529 0.0865 0.0242"   parentTemplate="calibratedMetallicPaint"    />
+        <template name="SPECIALBLUE1MATT"   title="$l10n_SPECIALBLUE1MATT"      colorScale="0 0.09 0.09"            parentTemplate="glassClear01"               />
+        <template name="SPECIALBLUE2MATT"   title="$l10n_SPECIALBLUE2MATT"      colorScale="0 0 1"                  parentTemplate="glassClear01"               />
+        <template name="SPECIALYELLOWMATT"  title="$l10n_SPECIALYELLOWMATT"     colorScale="1.0000 0.7231 0.0000"   parentTemplate="glassClear01"               />
+        <template name="SPECIALGREENMATT"   title="$l10n_SPECIALGREENMATT"      colorScale="0.488 0.687 0.027"      parentTemplate="glassClear01"               />
+        <template name="MANREDMATT"         title="$l10n_MANREDMATT"            colorScale="0.5605 0.0037 0.0037"   parentTemplate="glassClear01"               />
+        <template name="MANOLDGREENMATT"    title="$l10n_MANOLDGREENMATT"       colorScale="0.1878 0.3006 0.2159"   parentTemplate="glassClear01"               />
+        <template name="MANBEIGEMATT"       title="$l10n_MANBEIGEMATT"          colorScale="0.3021 0.2549 0.1734"   parentTemplate="glassClear01"               />
+        <template name="BLACKMATT"          title="$l10n_BLACKMATT"             colorScale="0 0 0"                  parentTemplate="glassClear01"               />
+        <template name="TATRAGREENMATT"     title="$l10n_TATRAGREENMATT"        colorScale="0.0200 0.2800 0.1900"   parentTemplate="glassClear01"               />
+        <template name="BROWN2MATT"         title="$l10n_BROWN2MATT"            colorScale="0.0886 0.0203 0.0012"   parentTemplate="glassClear01"               />
+        <template name="BLUE1MATT"          title="$l10n_BLUE1MATT"             colorScale="0.0000 0.4047 0.7519"   parentTemplate="glassClear01"               />
+        <template name="BLUE2MATT"          title="$l10n_BLUE2MATT"             colorScale="0.0055 0.0170 0.0265"   parentTemplate="glassClear01"               />
+        <template name="BLUE3MATT"          title="$l10n_BLUE3MATT"             colorScale="0.0019 0.0059 0.0090"   parentTemplate="glassClear01"               />
+        <template name="GREEN1MATT"         title="$l10n_GREEN1MATT"            colorScale="0.1070 0.2086 0.2462"   parentTemplate="glassClear01"               />
+        <template name="GREEN2MATT"         title="$l10n_GREEN2MATT"            colorScale="0.0265 0.6592 0.3204"   parentTemplate="glassClear01"               />
+        <template name="GREEN3MATT"         title="$l10n_GREEN3MATT"            colorScale="0.0072 0.2758 0.0528"   parentTemplate="glassClear01"               />
+        <template name="GREEN4MATT"         title="$l10n_GREEN4MATT"            colorScale="0.0000 1.0000 0.0415"   parentTemplate="glassClear01"               />
+        <template name="PINKMATT"           title="$l10n_PINKMATT"              colorScale="0.5924 0.1871 0.3723"   parentTemplate="glassClear01"               />
+        <template name="PINKREDMATT"        title="$l10n_PINKREDMATT"           colorScale="0.8751 0.0017 0.0303"   parentTemplate="glassClear01"               />
+        <template name="BERRYMATT"          title="$l10n_BERRYMATT"             colorScale="0.1087 0.0210 0.0370"   parentTemplate="glassClear01"               />
+        <template name="WHITEMATT"          title="$l10n_WHITEMATT"             colorScale="1.0000 1.0000 1.0000"   parentTemplate="glassClear01"               />
+        <template name="ORANGEMATT"         title="$l10n_ORANGEMATT"            colorScale="0.9157 0.1220 0.0066"   parentTemplate="glassClear01"               />
+        <template name="DARKGRAYMATT"       title="$l10n_DARKGRAYMATT"          colorScale="0.1220 0.1199 0.1199"   parentTemplate="glassClear01"               />
+        <template name="YELLOW1MATT"        title="$l10n_YELLOW1MATT"           colorScale="0.8913 0.6456 0.2120"   parentTemplate="glassClear01"               />
+        <template name="YELLOW2MATT"        title="$l10n_YELLOW2MATT"           colorScale="0.5054 0.3066 0.0231"   parentTemplate="glassClear01"               />
+        <template name="YELLOW3MATT"        title="$l10n_YELLOW3MATT"           colorScale="0.8227 0.9131 0.0000"   parentTemplate="glassClear01"               />
+        <template name="VIOLET1MATT"        title="$l10n_VIOLET1MATT"           colorScale="0.0802 0.0513 0.7231"   parentTemplate="glassClear01"               />
+        <template name="VIOLET2MATT"        title="$l10n_VIOLET2MATT"           colorScale="0.0090 0.0014 0.0619"   parentTemplate="glassClear01"               />
+        <template name="NAVYMATT"           title="$l10n_NAVYMATT"              colorScale="0.0529 0.0865 0.0242"   parentTemplate="glassClear01"               />
+    </materialTemplates> -->
+    <!-- OPTIONAL CONTENT END -->
+
+    <!-- PBSMODS CONTENT BEGIN -->
+    <!-- <brands>
+        <brand name="PBSModsRB" title="PBSMods" image="textures/brand_PBSModsRB.dds" />
+    </brands> -->
+    <!-- PBSMODS CONTENT END -->
+
+</modDesc>
