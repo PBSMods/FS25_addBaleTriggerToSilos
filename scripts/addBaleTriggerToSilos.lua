@@ -18,10 +18,9 @@ function addBaleTriggerToSilos:addTriggersToAllSilos()
 end
 
 function addBaleTriggerToSilos:addBaleTrigger(placeable)
-
     local triggerNode = createTransformGroup("autoBaleTrigger")
-    link(placeable.rootNode, triggerNode)
 
+    link(placeable.rootNode, triggerNode)
     setTranslation(triggerNode, 0, 0, -5)
 
     local baleTrigger = BaleTrigger.new(placeable, triggerNode, true)
@@ -30,7 +29,6 @@ function addBaleTriggerToSilos:addBaleTrigger(placeable)
 
     function baleTrigger:onBaleTriggerCallback(bale, fillType, fillLevel)
         if placeable.storage:getFreeCapacity(fillType) > fillLevel then
-            
             placeable.storage:addFillLevel(
                 g_currentMission:getFarmId(),
                 fillLevel,
@@ -38,11 +36,9 @@ function addBaleTriggerToSilos:addBaleTrigger(placeable)
                 ToolType.UNDEFINED,
                 nil
             )
-
             bale:delete()
         end
     end
-
     placeable.spec_baleTrigger = baleTrigger
 end
 
