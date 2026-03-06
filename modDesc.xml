@@ -2,7 +2,7 @@
 <modDesc descVersion="105" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
     <author>PBSMods</author>
 
-    <version>0.0.0.1</version>
+    <version>0.0.0.2</version>
 
     <title>
         <de>Ballen Import Trigger Für Silos</de>
@@ -24,6 +24,6 @@
 
     <extraSourceFiles>
         <sourceFile filename="scripts/AddBaleTriggerSpec.lua"/>
-        <sourceFile filename="scripts/AddBaleFillEvent.lua"/>
+        <!--<sourceFile filename="scripts/AddBaleFillEvent.lua"/>-->
     </extraSourceFiles>
 </modDesc>
